@@ -2,7 +2,7 @@ name: Run Daily Forecast
 
 on:
   schedule:
-    - cron: '0 1 * * *'  # Waktu UTC, berarti jam 09.00 WIB setiap hari
+    - cron: ''  # Waktu UTC, berarti jam 09.00 WIB setiap hari
   workflow_dispatch:     # Bisa juga dijalankan manual dari GitHub
 
 jobs:
